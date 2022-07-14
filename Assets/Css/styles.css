@@ -1,0 +1,86 @@
+/*COLOR PALETTE */
+
+.color-primary {
+  color: #565b5d;
+}
+
+.color-secondary {
+  color: #bf3026;
+}
+
+/*TEXTE*/
+
+.underline{
+  text-decoration: underline;
+}
+
+/*MODALS */
+
+.modal-size{
+  width: 30%;
+  height: 30%;
+}
+
+
+/*__________________*/
+
+
+body{
+  color: #454748;
+}
+
+/*WIDTH */
+
+.w-90{
+  width: 90% !important;
+}
+
+/*HEIGHT */
+
+
+.h-500{
+  height: 500px !important;
+}
+
+/*CAROUSEL CSS */
+
+.carousel-caption {
+  bottom: 180px;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+.carousel-caption h1{
+  font-size: 80px;
+  text-shadow: #101516 1px 0 25px;
+}
+
+.carousel-caption p{
+  font-size: 17px;
+  text-shadow: #101516 1px 0 10px;
+}
+
+/*LG SIZE */
+
+
+@media only screen and (min-width: 800px) {
+  .px-lg-10{
+    padding-left: 10rem !important;
+    padding-right: 10rem !important;
+  }
+}
+
+/*XS SIZE */
+
+@media only screen and (max-width: 984px) {
+  .pt-xs-8{
+    padding-top: 8rem !important;
+  }
+  .fs-xs-14{
+    font-size: 14px;
+  }
+
+  .fs-xs-06{
+    font-size: 0.65rem !important;
+  }
+}
+
